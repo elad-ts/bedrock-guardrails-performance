@@ -1,0 +1,39 @@
+# Article materials (Medium blog content)
+article/
+
+# Claude Code
+.claude/
+
+# Benchmark results
+*_results.json
+benchmark_results.json
+pii_benchmark_results.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+*.tfvars
+!*.tfvars.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
